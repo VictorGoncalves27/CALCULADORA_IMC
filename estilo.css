@@ -1,0 +1,91 @@
+h1 {
+    text-align: center;
+    margin-top: 2%;
+    color: white;    
+}
+h1:hover{
+    color: rgb(236, 21, 21);
+}
+h1:pointer{
+    color: rgb(236, 21, 21);
+}
+body{
+    background-color: rgb(1, 1, 37);
+}
+h2{
+    display: flex;
+    justify-content: center;
+    color: black;
+    margin-bottom: 100px;
+    background-color: #f7f7f7;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    height: 50px;
+    align-items: center;
+}
+h2:hover{
+    background-color: rgb(236, 21, 21);
+    color: white;
+    cursor: pointer;
+}
+
+
+p{
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 25px;
+    margin-top: 2%;
+    color: white;
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    line-height: 1.6;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 70%;
+    margin-left: 250px;
+}
+.escolha{
+    justify-content: center;
+    align-items: center;
+    flex-direction:column ;
+}
+main{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:6% ;
+    gap: 150px;
+    text-align: center;
+}
+img{
+    display: flex;
+    display: inline-block;
+    
+}
+input {
+    display: flex;
+    display: inline-block;
+    height: 35px;
+    
+}
+
+button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+    margin-left: 30%;
+    height: 50px;
+    width: 100px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 1px 1px 50px black;
+}
+button:hover{
+    background-color: rgb(236, 21, 21);
+    color: white;
+    cursor: pointer;
+}
